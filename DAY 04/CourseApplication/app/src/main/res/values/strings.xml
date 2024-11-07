@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CourseApplication</string>
+    <string name="title">"Sunbeam Courses"</string>
+    <string name="imageDescription">"Course Image"</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewApp</string>
+    <string name="pageTitle">SHOW COUNTRIES DETAILS</string>
+</resources>
