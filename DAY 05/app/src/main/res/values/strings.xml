@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmployeeApplication</string>
+    <string name="title">Employee Details</string>
+    <string name="addpagetitle">Add Employee</string>
+    <string name="displaypage">Employee Details</string>
+    <string name="editpagetitle">Edit Employee</string>
+</resources>
