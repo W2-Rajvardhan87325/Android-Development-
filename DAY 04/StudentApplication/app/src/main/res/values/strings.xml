@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudentApplication</string>
+    <string name="title">Student Details</string>
+    <string name="display">Displaying Details</string>
+    <string name="addpagetitle">Add Details</string>
+    <string name="editpagetitle">Edit Details</string>
+</resources>
