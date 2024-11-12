@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".activities.AddEmployeeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/addpagetitle"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addEmpId"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:hint="Enter EmpId here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/addEmpName"
+        android:inputType="text"
+        android:layout_margin="5dp"
+        android:hint="Enter Name here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/addEmpSal"
+        android:inputType="numberDecimal"
+        android:layout_margin="5dp"
+        android:hint="Enter Emp Sal here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addEmployee"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_margin="10dp"
+            android:onClick="save"
+            android:backgroundTint="#32D05D"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:text="Cancel"
+            android:backgroundTint="#FB0B0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:onClick="cancel"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
